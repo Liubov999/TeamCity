@@ -4,6 +4,7 @@ def test_sum():
     count = a+b
     assert count == 4, f'Expected: OWASP Juice Shop \n Actual: {count}'
 
+
 def test_min():
     a = 2
     b = 1
