@@ -22,5 +22,11 @@ def test_new():
     count = a-b
     assert count == 8, f' 1 \n Actual: {count}'
     
+def test_new_2():
+    a = 2
+    b = 1
+    count = a-b
+    assert count == 9, f' 1 \n Actual: {count}'
+    
     
     
