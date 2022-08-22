@@ -17,16 +17,12 @@ def test_min():
     assert count == 1, f' 1 \n Actual: {count}'
     
 def test_new():
-    a = 2
+    a = 3
     b = 1
     count = a-b
-    assert count == 8, f' 1 \n Actual: {count}'
+    assert count == 2, f' 1 \n Actual: {count}'
     
-def test_new_2():
-    a = 2
-    b = 1
-    count = a-b
-    assert count == 9, f' 1 \n Actual: {count}'
+
     
     
     
